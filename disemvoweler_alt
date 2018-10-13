@@ -15,5 +15,5 @@ if len(sys.argv) != 2:
 
 text = sys.argv[1]
 vowels = 'aeiou'
-print(''.join(letter for letter in text if letter not in vowels)).replace(' ', '')
-print(''.join(letter for letter in text if letter in vowels))
+print ''.join(letter for letter in text if letter not in vowels).replace(' ', '')
+print ''.join(letter for letter in text if letter in vowels)
