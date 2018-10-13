@@ -14,28 +14,32 @@ We also want to keep the vowels we removed around (in their original order), whi
 
     ouaaaaoai
 
-#####Formal Inputs & Outputs#####
-######Input description######
+##### Formal Inputs & Outputs #####
+
+###### Input description ######
 
 A string consisting of a series of words to disemvowel. It will be all lowercase (letters a-z) and without punctuation. The only special character you need to handle is spaces.
-######Output description######
+
+###### Output description ######
 
 Two strings, one of the disemvoweled text (spaces removed), and one of all the removed vowels.
-#####Sample Inputs & Outputs#####
-######Sample Input 1######
+
+##### Sample Inputs & Outputs #####
+
+###### Sample Input 1 ######
 
     all those who believe in psychokinesis raise my hand
 
-######Sample Output 1######
+###### Sample Output 1 ######
 
     llthswhblvnpsychknssrsmyhnd
     aoeoeieeioieiaiea
 
-######Sample Input 2######
+###### Sample Input 2 ######
 
     did you hear about the excellent farmer who was outstanding in his field
 
-######Sample Output 2######
+###### Sample Output 2 ######
 
     ddyhrbtthxcllntfrmrwhwststndngnhsfld
     ioueaaoueeeeaeoaouaiiiie
