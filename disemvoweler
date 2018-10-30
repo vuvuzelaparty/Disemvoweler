@@ -13,7 +13,7 @@ if len(sys.argv) != 2:
 
 input_str = sys.argv[1]
 
-vowels = ['a', 'e', 'i', 'o', 'u']
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
 outC = ''
 outV = ''

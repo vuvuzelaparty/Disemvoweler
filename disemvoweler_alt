@@ -2,7 +2,7 @@
 
 # this is a slightly edited response from another post in the reddit link
 # https://www.reddit.com/r/dailyprogrammer/comments/1ystvb/022414_challenge_149_easy_disemvoweler/cfng0od
-# i added this because it's cool
+# I added this because it's cool
 
 import sys
 
@@ -14,6 +14,6 @@ if len(sys.argv) != 2:
     sys.exit()
 
 text = sys.argv[1]
-vowels = 'aeiou'
+vowels = 'aeiouAEIOU'
 print ''.join(letter for letter in text if letter not in vowels).replace(' ', '')
 print ''.join(letter for letter in text if letter in vowels)
