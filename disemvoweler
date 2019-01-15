@@ -5,10 +5,10 @@
 import sys
 
 if len(sys.argv) != 2:
-    print 'Usage:'
-    print '    ./disemvoweler "<input string>"'
-    print 'Example:'
-    print '    ./disemvoweler "two drums and a cymbal fall off a cliff"'
+    print('Usage:')
+    print('    ./disemvoweler "<input string>"')
+    print('Example:')
+    print('    ./disemvoweler "two drums and a cymbal fall off a cliff"')
     sys.exit()
 
 input_str = sys.argv[1]
@@ -26,5 +26,5 @@ for c in input_str:
     else:
         outC += c
 
-print outC
-print outV
+print(outC)
+print(outV)
