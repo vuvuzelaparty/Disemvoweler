@@ -8,9 +8,9 @@ import sys
 
 if len(sys.argv) != 2:
     print('Usage:')
-    print('    ./disemvoweler_alt "<input string>"')
+    print('    ./disemvoweler_alt.py "<input string>"')
     print('Example:')
-    print('    ./disemvoweler_alt "two drums and a cymbal fall off a cliff"')
+    print('    ./disemvoweler_alt.py "two drums and a cymbal fall off a cliff"')
     sys.exit()
 
 text = sys.argv[1]
